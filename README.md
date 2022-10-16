@@ -5,8 +5,13 @@
 
 
 ## Steps for creation of resource:
-1. `terraform init`
-2. `terraform plan -target='module.dev-vpc'`
-3. `terraform apply --auto-approve -target='module.dev-vpc'`
-4. `terraform apply --auto-approve -target='aws_instance.openvpn-deploy'`
-5. `terraform apply --auto-approve -target='module.mysql'`
+1. `terraform init`.
+2. `terraform plan -target='module.dev-vpc'`.
+3. `terraform apply --auto-approve -target='module.dev-vpc'`.
+4. `terraform apply --auto-approve -target='aws_instance.openvpn-deploy'`.
+5. `terraform apply --auto-approve -target='module.mysql'`.
+
+## Deletion of resource:
+1. `terraform destroy --auto-approve -target='module.mysql'`.
+2. `terraform destroy --auto-approve -target='aws_instance.openvpn-deploy'`.
+3. `terraform destroy --auto-approve -target='module.dev-vpc'`.
