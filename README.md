@@ -1,27 +1,8 @@
 # terraform-awsrds-openvpn
 
 ## File Structure:
-.
-├── modules
-│   ├── rds_mysql
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   └── variables.tf
-│   ├── security-group
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   └── variables.tf
-│   └── vpc
-│       ├── main.tf
-│       ├── outputs.tf
-│       └── variables.tf
-├── mysql private.tf
-├── openvpn.tf
-├── security-groups.tf
-├── variables.tf
-└── vpc.tf
+<img width="181" alt="Screenshot 2022-10-16 at 12 16 34 PM" src="https://user-images.githubusercontent.com/45258145/196022198-ced77fb2-7aca-4b56-81fa-4329e2e13892.png">
 
-4 directories, 14 files
 
 ## Steps for creation of resource:
 `terraform init`
