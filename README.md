@@ -5,8 +5,8 @@
 
 
 ## Steps for creation of resource:
-`terraform init`
-`terraform plan -target='module.dev-vpc'`
-`terraform apply --auto-approve -target='module.dev-vpc'`
-`terraform apply --auto-approve -target='aws_instance.openvpn-deploy'`
-`terraform apply --auto-approve -target='module.mysql'`
+1. `terraform init`
+2. `terraform plan -target='module.dev-vpc'`
+3. `terraform apply --auto-approve -target='module.dev-vpc'`
+4. `terraform apply --auto-approve -target='aws_instance.openvpn-deploy'`
+5. `terraform apply --auto-approve -target='module.mysql'`
